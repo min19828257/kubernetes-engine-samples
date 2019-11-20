@@ -48,5 +48,8 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello, Minsu!\n")
 	fmt.Fprintf(w, "Version: 1.0.0\n")
 	fmt.Fprintf(w, "Hostname: %s\n", host)
+	fmt.Fprintf(w, "https://github.com/min19828257/CapstoneDesign \n")
+	fmt.Fprintf(w, "https://github.com/min19828257/AIWorldCup \n")
+	fmt.Fprintf(w, "https://github.com/min19828257/AirGuitar \n")
 }
 // [END all]
